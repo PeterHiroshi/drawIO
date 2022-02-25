@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-25T08:12:05.668Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36" etag="-_7bcruRXcDLQVmhvb-Q" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-25T08:18:17.070Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36" etag="RJgbEhiMA0iUq7SWWJot" version="16.6.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2407" dy="882" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -137,8 +137,8 @@
         <mxCell id="HDemBjrxflOcrxM6dK1a-45" value="java.util.Map#get" style="whiteSpace=wrap;html=1;fontSize=14;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="2835" y="1020" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HDemBjrxflOcrxM6dK1a-53" value="org.springframework.transaction.support.AbstractPlatformTransactionManager#newTransactionStatus&lt;br&gt;&lt;br&gt;&lt;b&gt;using&amp;nbsp;&lt;br&gt;(org.springframework.jdbc.datasource.DataSourceTransactionManager.DataSourceTransactionObject)&amp;nbsp;java.lang.Object&lt;/b&gt;&lt;b&gt;&lt;br&gt;&lt;br&gt;return&amp;nbsp;org.springframework.transaction.support.DefaultTransactionStatus&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=14;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1903" y="1373" width="826" height="123" as="geometry" />
+        <mxCell id="HDemBjrxflOcrxM6dK1a-53" value="&lt;br&gt;org.springframework.transaction.support.AbstractPlatformTransactionManager#newTransactionStatus&lt;br&gt;&lt;br&gt;&lt;b&gt;using&amp;nbsp;&lt;br&gt;(org.springframework.jdbc.datasource.DataSourceTransactionManager.DataSourceTransactionObject)&amp;nbsp;java.lang.Object&lt;/b&gt;&lt;b&gt;&lt;br&gt;&lt;br&gt;return&amp;nbsp;org.springframework.transaction.support.DefaultTransactionStatus&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=14;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1944" y="1375" width="826" height="123" as="geometry" />
         </mxCell>
         <mxCell id="HDemBjrxflOcrxM6dK1a-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="HDemBjrxflOcrxM6dK1a-57" target="HDemBjrxflOcrxM6dK1a-53">
           <mxGeometry relative="1" as="geometry" />
@@ -148,10 +148,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HDemBjrxflOcrxM6dK1a-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="HDemBjrxflOcrxM6dK1a-57" target="HDemBjrxflOcrxM6dK1a-69">
+        <mxCell id="HDemBjrxflOcrxM6dK1a-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="HDemBjrxflOcrxM6dK1a-57" target="HDemBjrxflOcrxM6dK1a-69">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1697" y="1526" />
+              <mxPoint x="1274" y="1887" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -160,11 +160,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="HDemBjrxflOcrxM6dK1a-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="HDemBjrxflOcrxM6dK1a-57" target="HDemBjrxflOcrxM6dK1a-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="HDemBjrxflOcrxM6dK1a-57" value="&lt;div&gt;PROPAGATION_REQUIRED ||&amp;nbsp;&lt;span&gt;PROPAGATION_REQUIRES_NEW ||&amp;nbsp;&lt;/span&gt;&lt;span&gt;PROPAGATION_NESTED&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="929" y="1469" width="690" height="110" as="geometry" />
         </mxCell>
         <mxCell id="HDemBjrxflOcrxM6dK1a-69" value="org.springframework.transaction.support.AbstractPlatformTransactionManager#prepareTransactionStatus&lt;br&gt;&lt;br&gt;&lt;b&gt;return&amp;nbsp;org.springframework.transaction.support.DefaultTransactionStatus&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=14;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1822" y="1857" width="683" height="60" as="geometry" />
+          <mxGeometry x="916" y="1833" width="683" height="60" as="geometry" />
         </mxCell>
         <mxCell id="HDemBjrxflOcrxM6dK1a-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="HDemBjrxflOcrxM6dK1a-73" target="HDemBjrxflOcrxM6dK1a-75">
           <mxGeometry relative="1" as="geometry" />
@@ -195,6 +198,15 @@
         </mxCell>
         <mxCell id="HDemBjrxflOcrxM6dK1a-83" value="&lt;b&gt;return &lt;/b&gt;org.springframework.jdbc.datasource.DataSourceTransactionManager.DataSourceTransactionObject" style="whiteSpace=wrap;html=1;fontSize=14;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1874" y="1052" width="725" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HDemBjrxflOcrxM6dK1a-91" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="HDemBjrxflOcrxM6dK1a-87" target="HDemBjrxflOcrxM6dK1a-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HDemBjrxflOcrxM6dK1a-87" value="org.springframework.jdbc.datasource.DataSourceTransactionManager#doBegin&lt;br&gt;&lt;br&gt;&lt;b&gt;using&amp;nbsp;&lt;br&gt;(org.springframework.jdbc.datasource.DataSourceTransactionManager.DataSourceTransactionObject)&amp;nbsp;java.lang.Object&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1944" y="1520" width="827" height="159" as="geometry" />
+        </mxCell>
+        <mxCell id="HDemBjrxflOcrxM6dK1a-90" value="&lt;div&gt;!txObject.hasConnectionHolder() ||&lt;/div&gt;&lt;div&gt;&lt;span&gt;					&lt;/span&gt;txObject.getConnectionHolder().isSynchronizedWithTransaction()&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2873" y="1535.25" width="646" height="128.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
