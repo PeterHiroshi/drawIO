@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-25T07:41:36.856Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36" etag="6GtiiZ3H1CPnhgVcjyv5" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-25T07:43:58.354Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36" etag="fry4jWT_mTIgMAaDmb_0" version="16.6.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2249" dy="794" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -132,11 +132,26 @@
         <mxCell id="HDemBjrxflOcrxM6dK1a-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="HDemBjrxflOcrxM6dK1a-57" target="HDemBjrxflOcrxM6dK1a-53">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="HDemBjrxflOcrxM6dK1a-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="HDemBjrxflOcrxM6dK1a-57" target="HDemBjrxflOcrxM6dK1a-69">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1053" y="1087" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HDemBjrxflOcrxM6dK1a-71" value="&lt;b&gt;false&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="HDemBjrxflOcrxM6dK1a-70">
+          <mxGeometry x="-0.0349" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="HDemBjrxflOcrxM6dK1a-57" value="&lt;div&gt;PROPAGATION_REQUIRED ||&amp;nbsp;&lt;span&gt;PROPAGATION_REQUIRES_NEW ||&amp;nbsp;&lt;/span&gt;&lt;span&gt;PROPAGATION_NESTED&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="710" y="910" width="690" height="110" as="geometry" />
         </mxCell>
         <mxCell id="HDemBjrxflOcrxM6dK1a-67" value="&lt;b&gt;true&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1430" y="950" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HDemBjrxflOcrxM6dK1a-69" value="org.springframework.transaction.support.AbstractPlatformTransactionManager#prepareTransactionStatus&lt;br&gt;&lt;br&gt;&lt;b&gt;return&amp;nbsp;org.springframework.transaction.support.DefaultTransactionStatus&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=14;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1550" y="1057" width="683" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
