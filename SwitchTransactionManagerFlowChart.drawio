@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-25T07:15:14.777Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36" etag="q4JeqeQChKjqzPIAzm7q" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-25T07:16:49.275Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36" etag="ywtFu7BjBLwm7oolrxxy" version="16.6.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2249" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -112,8 +112,14 @@
         <mxCell id="HDemBjrxflOcrxM6dK1a-37" value="org.springframework.jdbc.datasource.DataSourceTransactionManager#getDataSource" style="whiteSpace=wrap;html=1;fontSize=14;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="2530" y="740" width="565" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="HDemBjrxflOcrxM6dK1a-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="HDemBjrxflOcrxM6dK1a-39" target="HDemBjrxflOcrxM6dK1a-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="HDemBjrxflOcrxM6dK1a-39" value="org.springframework.transaction.support.TransactionSynchronizationManager#getResource&lt;br&gt;&lt;br&gt;&lt;b&gt;return&amp;nbsp;org.springframework.jdbc.datasource.ConnectionHolder&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=14;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="2090" y="880" width="600" height="60" as="geometry" />
+          <mxGeometry x="1870" y="880" width="600" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HDemBjrxflOcrxM6dK1a-41" value="org.springframework.transaction.support.TransactionSynchronizationManager#doGetResource" style="whiteSpace=wrap;html=1;fontSize=14;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2530" y="880" width="600" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
